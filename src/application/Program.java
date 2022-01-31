@@ -14,7 +14,7 @@ public class Program {
 		System.out.print("Date (dd/MM/yyyy): ");
 		System.out.print("Contract value: $");
 		System.out.println("");
-		System.out.print("Enter the number of installaments: ");
+		System.out.print("Enter the number of installments: ");
 		System.out.println("Installaments: ");
 		
 		

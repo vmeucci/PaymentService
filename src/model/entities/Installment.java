@@ -10,11 +10,7 @@ public class Installment {
 	private Date dueDate;
 	private Double amount;
 	
-	public Installment() {
-	}
-
 	public Installment(Date dueDate, Double amount) {
-		super();
 		this.dueDate = dueDate;
 		this.amount = amount;
 	}
@@ -35,11 +31,9 @@ public class Installment {
 		this.amount = amount;
 	}
 
-	
 	@Override
 	public String toString() {
 		return sdf.format(dueDate) + " - " + String.format("%.2f", amount);
-	}
-	
+ 	}
 	
 }
